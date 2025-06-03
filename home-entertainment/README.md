@@ -6,16 +6,31 @@ This folder documents the configuration and routing of the home entertainment sy
 
 ## 🖥️ Primary Devices
 
-```
+## Primary Devices
 
-| Device           | Connection Types Used                                | Notes                                      |
-|——————|——————————————————|———————————————|
-| PC               | 2× HDMI (monitors), 1× HDMI (matrix), Optical (audio) | Primary desktop with audio + video routing |
-| Laptop           | HDMI, USB                                           | Docked or direct connection                 |
-| Work Laptop      | HDMI (via dock), USB                                | USB switch to share keyboard/mouse         |
-| Nintendo Switch  | HDMI                                                | Routed through HDMI matrix                  |
+### HDMI Matrix  
+**Purpose:** Routes HDMI sources to multiple displays.  
+**Notes:** Central to managing shared inputs (e.g., consoles, streaming devices).  
 
-```
+### Audio Matrix / Selector  
+**Purpose:** Routes audio to multiple output devices (speakers, headphones).  
+**Notes:** Can select between output sources for different zones or preferences.  
+
+### USB Switch  
+**Purpose:** Shares USB peripherals (e.g., keyboard, mouse) across devices.  
+**Notes:** Useful for switching control between work and entertainment setups.  
+
+### Headphones  
+**Purpose:** Private listening.  
+**Notes:** May be routed via audio matrix or direct output.  
+
+### Desktop Speakers  
+**Purpose:** Main stereo audio output.  
+**Notes:** Typically powered speakers for easy PC or console integration.  
+
+### Surround Sound Speakers  
+**Purpose:** Immersive multi-channel audio.  
+**Notes:** For use in media or theater setups, requires additional amp or receiver.
 
 —
 
