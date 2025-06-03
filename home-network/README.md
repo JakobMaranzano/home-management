@@ -80,6 +80,20 @@ VLAN 40: Development (Wi-Fi only, hosted by PC)
 
 —
 
+## 📦 Parts List
+
+```
+| # | Item                          | Description                                                | Quantity | Est. Price (USD) |
+|—|-——————————|————————————————————|-———|——————|
+| 1 | **VLAN-Capable Router**       | Manages internet access and routes traffic by VLAN tags   | 1        | $100–$180        |
+| 2 | **VLAN-Aware Managed Switch** | Distributes Ethernet connections, supports tagged VLANs   | 1–2      | $50–$150 each    |
+| 3 | **Wi-Fi Access Points (APs)** | Broadcasts multiple VLAN-based SSIDs for devices          | 1–3      | $60–$120 each    |
+```
+
+**💰 Estimated Total Cost**: *$210–$690*, depending on quantity and models chosen
+
+-
+
 ## 💡 Notes
 
 - Powerline Ethernet may be used if physical cabling is limited, but performance is lower than dedicated Ethernet.
