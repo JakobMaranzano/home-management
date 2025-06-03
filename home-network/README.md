@@ -15,12 +15,39 @@ This folder documents the full layout and configuration of the home network, inc
 
 ## 🧩 VLAN Structure
 
-| VLAN ID | Name         | Purpose                                     | Access Rules                                           |
-|———:|—————|———————————————|———————————————————|
-| 10      | General      | Household internet devices                  | Internet access only                                  |
-| 20      | Secure       | PC and Proxmox server (wired only)          | Full access to VLANs 10 & 30                          |
-| 30      | IoT          | Smart home and automation devices           | Cannot access VLAN 20 (secure network)                |
-| 40      | Development  | Temporary/devices via PC’s hosted Wi-Fi     | Isolated; optional internet via PC NAT                ||
+### 📶 VLAN Configuration Table
+
+```
+| VLAN ID | Name        | Purpose                          | Devices                               |   Internet    | Access Rules                      |
+|————-|——————-|-————————————————-|———————————————————-|———————-|—————————————————-|
+| 10      | General     | Household internet devices       | Smart TVs, laptops, phones, consoles  | ✅            | 🚫 No access to VLAN 20/30       |
+| 20      | Secure      | Critical systems, admin network  | PC, Proxmox Server                    | ✅            | ✅ Access to VLAN 30             |
+| 30      | IoT         | Smart home and automation        | Sensors, smart plugs, hubs            | ✅            | 🚫 Cannot access VLAN 10/20      |
+| 40      | Development | Temporary/test Wi-Fi devices     | Dev/test hardware (via PC Wi-Fi)      | ✅ (via PC)   | 🔒 Isolated, NAT access via PC   |
+```
+
+VLAN 10: General
+  - Devices: Smart TVs, game consoles, phones, laptops
+  - Internet Access: Yes
+  - Access to VLAN 20: No
+  - Access to VLAN 30: No
+
+VLAN 20: Secure
+  - Devices: PC (Dev Hub), Proxmox Server
+  - Internet Access: Yes
+  - Access to VLAN 30 (IoT): Yes
+  - Access to VLAN 10: Optional
+
+VLAN 30: IoT
+  - Devices: Smart home and automation devices
+  - Internet Access: Yes
+  - Access to VLAN 20: No
+  - Access to VLAN 10: No
+
+VLAN 40: Development (Wi-Fi only, hosted by PC)
+  - Devices: Temporary/devices under test
+  - Internet Access: Optional (shared via PC NAT)
+  - Access to VLAN 20/30/10: No (isolated by default)
 
 —
 
