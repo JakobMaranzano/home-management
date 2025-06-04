@@ -8,7 +8,7 @@ This folder documents the configuration and routing of the home entertainment sy
 
 ## Primary Devices
 
-### HDMI Matrix  
+### [HDMI matrix](https://www.amazon.com/dp/B07C8F31TG)  
 **Purpose:** Routes HDMI sources to multiple displays.  
 **Notes:** Central to managing shared inputs (e.g., consoles, streaming devices).  
 
@@ -77,7 +77,7 @@ This folder documents the configuration and routing of the home entertainment sy
 ```
 | Item                      | Quantity | Notes                                          | Estimated Price Range |
 |—————————|-———|————————————————|————————|
-| HDMI Matrix               | 1        | For routing HDMI video signals to multiple displays | $60–$150           |
+| HDMI matrix               | 1        | For routing HDMI video signals to multiple displays | $250-300           |
 | Audio Matrix / Selector   | 1        | For routing audio signals to multiple speaker outputs | $30–$100         |
 | USB Switch                | 1        | For switching USB peripherals between devices   | $20–$50              |
 | Headphones                | 1        | For private listening                           | $30–$200             |
@@ -86,9 +86,9 @@ This folder documents the configuration and routing of the home entertainment sy
 | Cables (HDMI)             | Various  | HDMI cables for video/audio connections         | $20–$50              |
 | Cables (USB)              | Various  | USB cables for peripherals                      | $10–$30              |
 | Cables (Audio)            | Various  | Audio cables for speakers and devices           | $20–$60              |
-
-**Estimated Total Cost Range**: **$390 – $1,390+**
 ```
+
+**Estimated Total Cost Range**: **$665 – $1,075+**
 
 —
 
